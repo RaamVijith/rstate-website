@@ -1,0 +1,41 @@
+.welcome{
+    position: relative;
+    padding: 2% 5% -5% 5%;
+    display: flex;
+    flex-direction: row;
+    height: 50vw;
+    background-image: url("../../Media/welcomePic.jpg");
+    margin-top: -6vw;
+   
+}
+.welcome-right {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    top: 40%;
+    left: 40%;
+    max-height: 50%;
+    flex-direction: column;
+    text-align: center;
+}
+.welcome-right p{
+    font-size: 1.5vw;
+    color: aliceblue;
+}
+.welcome-right h1{
+    font-size: 3.5vw;
+    font-weight: 500;
+    color: aliceblue;
+}
+.welcome-right button{
+    width: fit-content;
+    align-self: center;
+    background-color: #078169;
+    font-size: 1vw;
+    color: aliceblue;
+    padding: 0.3vw 2vw;
+    border-radius: 0.3vw;
+    font-weight: 500;
+    cursor: pointer;
+}

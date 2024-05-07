@@ -1,0 +1,79 @@
+.special-deal {
+    display: flex;
+    flex-direction: column;
+    padding: 10vh 10vw;
+    justify-content: space-between;
+    align-items: center;
+}
+.special-deal h1{
+    font-size: xx-large;
+    font-weight: 500;
+    color: #434343;
+}
+.special-deal p{
+    font-size: small;
+    color: gray;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+.special-deal-container{
+    display: flex;
+    flex-direction: row;
+    gap: 10vw;
+    padding: 3vw 0;
+}
+
+
+.special-deal-left{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: left;
+    align-self: center;
+}
+.special-deal-left h3{
+    font-size: larger;
+    font-weight: 500;
+    color: #434343;
+}
+.special-deal-left h6{
+    font-size: large;
+    font-weight: 400;
+    color: #078169;
+    padding-top: 1rem;
+}
+.special-deal-left p{
+    font-size: small;
+    text-align: justify;
+    padding-top: 1rem;
+}
+
+.special-deal-right{
+    display: flex;
+    flex: 1;
+}
+.special-deal-right img{
+    width: 100%;
+    border-radius: 5%;
+}
+
+.off-btn {
+    width: fit-content;
+    background-color: #078169;
+    font-size: x-small;
+    color: aliceblue;
+    padding: 0.3vw 1vw;
+    border-radius: 0.3vw;
+    font-weight: 400;
+}
+.special-deal-left button{
+    width: fit-content;
+    background-color: #078169;
+    font-size: small;
+    color: aliceblue;
+    padding: 0.7vw 1.5vw;
+    border-radius: 0.3vw;
+    font-weight: 400;
+    cursor: pointer;
+    box-shadow: 1px 1px 2px rgb(170, 170, 170);
+}

@@ -1,0 +1,40 @@
+.estate-demo {
+    display: flex;
+    flex-direction: column;
+    padding: 10vh 10vw;
+    justify-content: center;
+    align-items: center;
+}
+.estateDemo-content{
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+}
+.estate-demo h1{
+    font-size: xx-large;
+    font-weight: 500;
+    color: #434343;
+}
+.estateDemo-content-inside {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    gap:15px;
+    width: 250px;
+    padding-top: 70px;
+    align-items: center;
+}
+.estateDemo-content-inside img{
+    width: 75px;
+}
+.estateDemo-content-inside h5{
+    font-size: large;
+    font-weight: 500;
+    padding-top: 20px;
+    color: #2d2d2d;
+}
+.estateDemo-content-inside p{
+    color: gray;
+    font-size: small;
+    text-align: center;
+}
